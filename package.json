@@ -4,7 +4,12 @@
   "description": "A banking revolution",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:sass": "sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --browser=chrome",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "sass sass/main.scss css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.comp.css -o css/style.prefix.css",
+    "build:css": "npm-run-all compile:sass prefix:css"
   },
   "author": "prayag tandon",
   "license": "ISC",
