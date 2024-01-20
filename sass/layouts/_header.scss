@@ -1,0 +1,21 @@
+@use "../abstracts/" as *;
+@use "../base/" as *;
+
+.header {
+    min-height: 100vh;
+    background-color: teal;
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+
+        &--logo-container {
+            img {
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+    }
+}
