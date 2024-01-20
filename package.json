@@ -1,0 +1,19 @@
+{
+  "name": "votexfinance",
+  "version": "1.0.0",
+  "description": "A banking revolution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prayag tandon",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "concat": "^1.0.3",
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.26",
+    "sass": "^1.63.6"
+  }
+}
