@@ -1,0 +1,28 @@
+@use "../abstracts/" as *;
+
+.heading {
+
+    &--primary {
+        flex-direction: column;
+        margin-bottom: $margin-bottom--md;
+
+        &-big {
+            display: inline-block;
+            font-size: 4rem;
+            font-weight: 500;
+            letter-spacing: .2px;
+            text-transform: uppercase;
+            color: $color-white;
+            margin-bottom: $margin-bottom--sm;
+        }
+
+        &-small {
+            display: inline-block;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: $color-secondary--dark-1;
+            font-family: $font-secondary;
+        }
+
+    }
+}
