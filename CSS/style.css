@@ -61,8 +61,8 @@ body {
 }
 
 .header {
-  min-height: 110vh;
-  background-image: linear-gradient(to right, rgba(5, 21, 34, 0.95), rgba(5, 23, 38, 0.85)), url(../../img/header_img-1.jpg);
+  height: 110vh;
+  background-image: linear-gradient(to right, rgba(5, 21, 34, 0.85), rgba(5, 23, 38, 0.85)), url(../../img/header_img-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -113,6 +113,10 @@ body {
   color: #74e6c3;
   transition: all 0.2s ease-in;
   border-bottom: 1px solid #74e6c3;
+}
+.header__content {
+  flex-direction: column;
+  min-height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

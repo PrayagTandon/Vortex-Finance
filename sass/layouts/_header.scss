@@ -2,9 +2,8 @@
 @use "../base/" as *;
 
 .header {
-    min-height: 110vh;
-    // background: linear-gradient(to right, rgba($color-primary--dark , .95), rgba($color-primary , .85));
-    background-image: linear-gradient(to right, rgba($color-primary--dark , .95), rgba($color-primary , .85)), url(../../img/header_img-1.jpg);
+    height: 110vh;
+    background-image: linear-gradient(to right, rgba($color-primary--dark , .85), rgba($color-primary , .85)), url(../../img/header_img-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -71,5 +70,8 @@
         }
     }
 
-    // &__content {}
+    &__content {
+        flex-direction: column;
+        min-height: 100%;
+    }
 }
