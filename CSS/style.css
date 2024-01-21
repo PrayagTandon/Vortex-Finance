@@ -39,6 +39,7 @@ body {
 .header__nav--logo-link p {
   font-family: "Merriweather", serif;
   font-size: 1.5rem;
+  font-weight: 600;
   color: rgba(255, 255, 255, 0.92);
   transition: all 0.2s ease-in;
 }
