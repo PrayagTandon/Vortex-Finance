@@ -1,0 +1,32 @@
+@use "../abstracts/" as *;
+@use "../base/" as *;
+
+.section--feature {
+
+    padding: 2rem 0rem;
+
+    &-container {
+        flex-direction: column;
+        gap: 1.5rem;
+
+        &-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 4rem;
+
+            img {
+                height: 2rem;
+
+                /* ADJUSTING THE COLOR OF THE LOGOS */
+                filter: brightness(0);
+                opacity: .5;
+
+                &:hover {
+                    filter: brightness(10);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

@@ -35,6 +35,14 @@ body {
   color: #74e6c3;
   font-family: "Poppins", sans-serif;
 }
+.heading--featured {
+  font-size: 1.6rem;
+  color: #808080;
+  text-transform: uppercase;
+  font-weight: 700;
+  word-spacing: 1.5px;
+  font-family: "Merriweather", serif;
+}
 
 .flex--center {
   display: flex;
@@ -183,7 +191,31 @@ body {
 }
 
 .main {
-  padding: 4rem 6rem;
+  padding: 0rem 6rem;
+}
+
+.section--feature {
+  padding: 2rem 0rem;
+}
+.section--feature-container {
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.section--feature-container-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4rem;
+}
+.section--feature-container-content img {
+  height: 2rem;
+  /* ADJUSTING THE COLOR OF THE LOGOS */
+  filter: brightness(0);
+  opacity: 0.5;
+}
+.section--feature-container-content img:hover {
+  filter: brightness(10);
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

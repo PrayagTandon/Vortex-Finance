@@ -25,4 +25,13 @@
         }
 
     }
+
+    &--featured {
+        font-size: 1.6rem;
+        color: $color-grey--1;
+        text-transform: uppercase;
+        font-weight: 700;
+        word-spacing: 1.5px;
+        font-family: $font-primary;
+    }
 }
