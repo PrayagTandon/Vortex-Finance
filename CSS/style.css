@@ -23,6 +23,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
+  background-color: aliceblue;
 }
 .header__nav--logo-container img {
   width: 5rem;
