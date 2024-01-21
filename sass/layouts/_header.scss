@@ -9,15 +9,23 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem;
+        padding: 2rem 4rem;
 
-        background-color: aliceblue;
+        // TEMP STYLES
+        background-color: rgb(52, 129, 196);
 
         &--logo-container {
             img {
-                width: 5rem;
-                height: 5rem;
+                width: 8rem;
+                height: 8rem;
             }
+        }
+
+        &--links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
         }
     }
 }

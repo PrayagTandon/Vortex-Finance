@@ -22,12 +22,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
-  background-color: aliceblue;
+  padding: 2rem 4rem;
+  background-color: rgb(52, 129, 196);
 }
 .header__nav--logo-container img {
-  width: 5rem;
-  height: 5rem;
+  width: 8rem;
+  height: 8rem;
+}
+.header__nav--links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
