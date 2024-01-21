@@ -47,19 +47,20 @@ body {
   gap: 1.2rem;
   list-style: none;
 }
-.header__nav--links li a {
+.header__nav--link-item {
   display: inline-block;
   text-decoration: none;
-  padding: 0.8rem 1.2rem;
+  margin: 0.8rem 1.2rem 0rem;
+  padding-bottom: 0.4rem;
 }
-.header__nav--links li a:link,
-.header__nav--links li a:visited {
+.header__nav--link-item:link, .header__nav--link-item:visited {
   color: #ffffff;
+  border-bottom: 1px solid transparent;
 }
-.header__nav--links li a:hover,
-.header__nav--links li a:active {
-  color: #d6d6d6;
-  transition: all 0.3s ease-in;
+.header__nav--link-item:hover, .header__nav--link-item:active {
+  color: #74e6c3;
+  transition: all 0.2s ease-in;
+  border-bottom: 1px solid #74e6c3;
 }
 
 /*# sourceMappingURL=style.css.map */
