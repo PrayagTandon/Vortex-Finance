@@ -33,7 +33,7 @@
         transition: $transition--sm;
 
         &:hover {
-            background-color: $color-primary;
+            background-color: transparent;
             color: $color-white;
         }
     }

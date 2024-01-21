@@ -77,12 +77,12 @@ body {
   transition: all 0.2s ease-in;
 }
 .btn--outline:hover {
-  background-color: #051726;
+  background-color: transparent;
   color: rgba(255, 255, 255, 0.92);
 }
 
 .header {
-  height: 110vh;
+  min-height: 100vh;
   background-image: linear-gradient(to right, rgba(5, 21, 34, 0.85), rgba(5, 23, 38, 0.85)), url(../../img/header_img-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,7 +90,6 @@ body {
 }
 .header__nav {
   padding: 2rem 4rem;
-  background-color: darkseagreen;
 }
 .header__nav--logo-link {
   text-decoration: none;
@@ -137,7 +136,49 @@ body {
 }
 .header__content {
   flex-direction: column;
-  min-height: 85vh;
+  min-height: 80vh;
+}
+.header__content-text {
+  font-family: "Poppins", sans-serif;
+  padding: 0.6rem 1rem;
+  width: 50%;
+  font-size: 0.9rem;
+  color: #ababab;
+  line-height: 1.8rem;
+  margin-bottom: 2.5rem;
+  word-spacing: 2.5px;
+}
+.header__content-text span {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #74e6c3;
+}
+.header__content-btn {
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.header__content-users {
+  gap: 2.4rem;
+}
+.header__content-users--img img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: -1rem;
+  outline: #74e6c3 solid 3px;
+}
+.header__content-users--text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ababab;
+}
+.header__content-users--text span {
+  font-size: 1.4rem;
+  color: #74e6c3;
+}
+.header__btn {
+  padding: 1.2rem 2rem;
+  font-size: 1.25rem;
 }
 
 /*# sourceMappingURL=style.css.map */
