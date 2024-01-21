@@ -33,14 +33,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.2rem;
   list-style: none;
 }
 .header__nav--links li a {
   display: inline-block;
   text-decoration: none;
   padding: 0.8rem 1.2rem;
-  background-color: coral;
+}
+.header__nav--links li a:link,
+.header__nav--links li a:visited {
+  color: #ffffff;
+}
+.header__nav--links li a:hover,
+.header__nav--links li a:active {
+  color: #d6d6d6;
+  transition: all 0.3s ease-in;
 }
 
 /*# sourceMappingURL=style.css.map */

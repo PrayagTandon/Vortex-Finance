@@ -25,16 +25,27 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 2rem;
+            gap: 1.2rem;
             list-style: none;
 
             li {
+
                 a {
                     display: inline-block;
                     text-decoration: none;
                     padding: 0.8rem 1.2rem;
-                    background-color: coral;
-                    // color: ;
+                    // background-color: coral;
+                }
+
+                a:link,
+                a:visited {
+                    color: $color-white;
+                }
+
+                a:hover,
+                a:active {
+                    color: $color-grey--1;
+                    transition: $transition--sm;
                 }
             }
         }
