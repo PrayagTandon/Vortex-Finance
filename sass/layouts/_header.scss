@@ -2,22 +2,19 @@
 @use "../base/" as *;
 
 .header {
-    min-height: 100vh;
-    background: linear-gradient(to right, rgba($color-primary--dark , .95), rgba($color-primary , .85));
+    min-height: 110vh;
+    // background: linear-gradient(to right, rgba($color-primary--dark , .95), rgba($color-primary , .85));
+    background-image: linear-gradient(to right, rgba($color-primary--dark , .95), rgba($color-primary , .85)), url(../../img/header_img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
     &__nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         padding: 2rem 4rem;
-
         background-color: darkseagreen;
 
         &--logo-link {
-            display: flex;
             text-decoration: none;
-            align-items: center;
-            justify-content: center;
             gap: 1rem;
 
             img {
@@ -47,9 +44,6 @@
         }
 
         &--links {
-            display: flex;
-            justify-content: center;
-            align-items: center;
             gap: 1.4rem;
             list-style: none;
         }
@@ -76,4 +70,6 @@
             }
         }
     }
+
+    // &__content {}
 }
