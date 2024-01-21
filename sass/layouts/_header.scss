@@ -26,6 +26,17 @@
             justify-content: center;
             align-items: center;
             gap: 2rem;
+            list-style: none;
+
+            li {
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    padding: 0.8rem 1.2rem;
+                    background-color: coral;
+                    // color: ;
+                }
+            }
         }
     }
 }
