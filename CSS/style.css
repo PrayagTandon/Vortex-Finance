@@ -12,22 +12,33 @@ body {
   line-height: 1;
   min-height: 100vh;
   font-family: "Merriweather", serif;
+  color: #ffffff;
 }
 
 .header {
   min-height: 100vh;
-  background-color: teal;
+  background-color: #051726;
 }
 .header__nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 4rem;
-  background-color: rgb(52, 129, 196);
+}
+.header__nav--logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
 }
 .header__nav--logo-container img {
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
+}
+.header__nav--logo-container p {
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  color: #81ffd9;
 }
 .header__nav--links {
   display: flex;

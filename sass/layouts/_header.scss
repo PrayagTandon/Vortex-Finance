@@ -3,7 +3,7 @@
 
 .header {
     min-height: 100vh;
-    background-color: teal;
+    background-color: $color-primary;
 
     &__nav {
         display: flex;
@@ -12,12 +12,23 @@
         padding: 2rem 4rem;
 
         // TEMP STYLES
-        background-color: rgb(52, 129, 196);
 
         &--logo-container {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.6rem;
+
             img {
-                width: 8rem;
-                height: 8rem;
+                width: 6rem;
+                height: 6rem;
+            }
+
+            p {
+                font-family: $font-primary;
+                font-size: 1.5rem;
+                color: $color-secondary;
             }
         }
 
@@ -34,7 +45,6 @@
                     display: inline-block;
                     text-decoration: none;
                     padding: 0.8rem 1.2rem;
-                    // background-color: coral;
                 }
 
                 a:link,
