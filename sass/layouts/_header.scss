@@ -11,7 +11,7 @@
         align-items: center;
         padding: 2rem 4rem;
 
-        // background-color: darkseagreen;
+        background-color: darkseagreen;
 
         &--logo-link {
             display: flex;
@@ -33,11 +33,15 @@
                 transition: $transition--sm;
 
                 span {
-                    color: $color-secondary--dark-1;
+                    color: $color-secondary--dark-2;
                 }
 
                 &:hover {
-                    color: $color-white;
+                    color: $color-secondary--dark-2;
+
+                    span {
+                        color: $color-white;
+                    }
                 }
             }
         }
@@ -46,7 +50,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 1.2rem;
+            gap: 1.4rem;
             list-style: none;
         }
 
@@ -61,7 +65,7 @@
             &-item:link,
             &-item:visited {
                 color: $color-white;
-                border-bottom: 1px solid transparent;
+                border-bottom: $border-bottom;
             }
 
             &-item:hover,
@@ -70,11 +74,6 @@
                 transition: $transition--sm;
                 border-bottom: 1px solid $color-secondary--dark-1;
             }
-
-            // &-btn {
-
-            // }
-
         }
     }
 }

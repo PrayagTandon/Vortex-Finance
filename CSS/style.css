@@ -15,6 +15,35 @@ body {
   color: rgba(255, 255, 255, 0.92);
 }
 
+.btn {
+  display: inline-block;
+  border: none;
+  font-family: "Merriweather", serif;
+  padding: 1rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 9px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn--fill {
+  background-color: #4d9982;
+  color: rgba(255, 255, 255, 0.92);
+  transition: all 0.2s ease-in;
+}
+.btn--fill:hover {
+  background-color: #346657;
+  color: rgba(255, 255, 255, 0.92);
+}
+.btn--outline {
+  background-color: rgba(255, 255, 255, 0.92);
+  color: #051726;
+  transition: all 0.2s ease-in;
+}
+.btn--outline:hover {
+  background-color: #051726;
+  color: rgba(255, 255, 255, 0.92);
+}
+
 .header {
   min-height: 100vh;
   background: linear-gradient(to right, rgba(5, 21, 34, 0.95), rgba(5, 23, 38, 0.85));
@@ -24,6 +53,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 4rem;
+  background-color: darkseagreen;
 }
 .header__nav--logo-link {
   display: flex;
@@ -44,16 +74,19 @@ body {
   transition: all 0.2s ease-in;
 }
 .header__nav--logo-link p span {
-  color: #74e6c3;
+  color: #4d9982;
 }
 .header__nav--logo-link p:hover {
+  color: #4d9982;
+}
+.header__nav--logo-link p:hover span {
   color: rgba(255, 255, 255, 0.92);
 }
 .header__nav--links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.2rem;
+  gap: 1.4rem;
   list-style: none;
 }
 .header__nav--link-item {

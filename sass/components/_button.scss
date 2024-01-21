@@ -1,0 +1,35 @@
+@use "../abstracts/" as *;
+@use "../base/" as *;
+
+.btn {
+    display: inline-block;
+    border: none;
+    font-family: $font-primary;
+    padding: 1rem 1.4rem;
+    font-size: 1rem;
+    border-radius: 9px;
+    font-weight: 500;
+    cursor: pointer;
+
+    &--fill {
+        background-color: $color-secondary--dark-2;
+        color: $color-white;
+        transition: $transition--sm;
+
+        &:hover {
+            background-color: $color-secondary--dark-3;
+            color: $color-white;
+        }
+    }
+
+    &--outline {
+        background-color: $color-white;
+        color: $color-primary;
+        transition: $transition--sm;
+
+        &:hover {
+            background-color: $color-primary;
+            color: $color-white;
+        }
+    }
+}
