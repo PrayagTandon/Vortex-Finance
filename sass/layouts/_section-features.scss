@@ -26,6 +26,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
+            padding-bottom: 3rem;
 
             &_icon {
                 margin-bottom: $margin-bottom--md;
@@ -40,7 +41,7 @@
                     font: .8rem;
                     font-weight: 300;
                     line-height: 1.8rem;
-                    color: $color-grey--3;
+                    color: $color-grey--2;
                 }
             }
         }
