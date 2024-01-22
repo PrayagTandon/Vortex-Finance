@@ -47,7 +47,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 1.2rem;
   width: 85%;
   margin: 0 auto;
 }
@@ -55,26 +55,26 @@ body {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: #051726;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #4d9982;
 }
 .heading--secondary-big {
   font-size: 2.2rem;
   text-transform: uppercase;
+  color: #051726;
   line-height: 3rem;
   word-spacing: 1.5px;
   font-weight: 600;
+}
+.heading--secondary-big span {
   /* TEXT SHADE */
   display: inline-block;
   background-color: transparent;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(to right, rgba(77, 153, 130, 0.85), rgba(52, 102, 87, 0.95));
-}
-.heading--secondary-big span {
-  color: #051522;
+  background-image: linear-gradient(to right, rgba(77, 153, 130, 0.8), rgba(52, 102, 87, 0.9));
 }
 
 .flex--center {
@@ -90,7 +90,22 @@ body {
 }
 
 .section {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .btn {
@@ -227,17 +242,13 @@ body {
   font-size: 1.25rem;
 }
 
-.main {
-  padding: 0rem 6rem;
-}
-
 .section--feature {
   background-color: rgba(255, 255, 255, 0.92);
   padding: 2rem 0rem;
 }
 .section--feature-container {
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 2.5rem;
 }
 .section--feature-container-content {
   display: flex;
@@ -254,10 +265,6 @@ body {
 .section--feature-container-content img:hover {
   filter: brightness(0.8);
   opacity: 1;
-}
-
-.section--features {
-  background-image: linear-gradient(to right, rgba(5, 21, 34, 0.95), rgba(5, 23, 38, 0.85));
 }
 
 /*# sourceMappingURL=style.css.map */

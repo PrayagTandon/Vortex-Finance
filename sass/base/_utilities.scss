@@ -13,5 +13,20 @@
 }
 
 .section {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
 }

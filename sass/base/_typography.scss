@@ -40,7 +40,7 @@
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-        gap: 1.8rem;
+        gap: 1.2rem;
         width: 85%;
         margin: 0 auto;
 
@@ -48,27 +48,27 @@
             font-family: $font-secondary;
             text-transform: uppercase;
             letter-spacing: .4px;
-            font-size: 1.4rem;
-            font-weight: 600;
-            color: $color-primary;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: $color-secondary--dark-2;
         }
 
         &-big {
             font-size: 2.2rem;
             text-transform: uppercase;
+            color: $color-primary;
             line-height: 3rem;
             word-spacing: 1.5px;
             font-weight: 600;
-            /* TEXT SHADE */
-            display: inline-block;
-            background-color: transparent;
-            color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-            background-image: linear-gradient(to right, rgba($color-secondary--dark-2, .85), rgba($color-secondary--dark-3, .95));
 
             span {
-                color: $color-primary--dark;
+                /* TEXT SHADE */
+                display: inline-block;
+                background-color: transparent;
+                color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                background-image: linear-gradient(to right, rgba($color-secondary--dark-2, .8), rgba($color-secondary--dark-3, .9));
             }
         }
     }
