@@ -4,4 +4,9 @@
 .section--features {
     // padding: 4rem 0rem;
     // background-image: linear-gradient(to right, rgba($color-primary--dark , .95), rgba($color-primary , .85));
+
+    &-box {
+        border: 2px solid red;
+        padding: 2rem;
+    }
 }
