@@ -2,5 +2,5 @@
 @use "../base/" as *;
 
 .main {
-    background-color: $color-grey--4;
+    background: linear-gradient(to right, rgba($color-secondary , .9), rgba($color-secondary--dark-1 , .9));
 }

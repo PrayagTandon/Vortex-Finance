@@ -249,7 +249,7 @@ body {
 }
 
 .main {
-  background-color: #ededed;
+  background: linear-gradient(to right, rgba(129, 255, 217, 0.9), rgba(116, 230, 195, 0.9));
 }
 
 .section--feature {
@@ -281,6 +281,19 @@ body {
 }
 .section--features-container {
   gap: 6rem;
+  margin-bottom: 4rem;
+}
+.section--features-container-img {
+  position: relative;
+}
+.section--features-container-img::before {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(129, 255, 217, 0.85), rgba(77, 153, 130, 0.9));
+  opacity: 0.3;
 }
 .section--features-container-img img {
   max-width: 100%;
