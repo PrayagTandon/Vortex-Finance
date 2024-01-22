@@ -2,5 +2,5 @@
 @use "../base/" as *;
 
 .section--features {
-    // border: 2px solid red;
+    background-image: linear-gradient(to right, rgba($color-primary--dark , .95), rgba($color-primary , .85));
 }

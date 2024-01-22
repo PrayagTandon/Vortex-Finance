@@ -40,8 +40,8 @@
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-        gap: 1.5rem;
-        width: 80%;
+        gap: 1.8rem;
+        width: 85%;
         margin: 0 auto;
 
         &-small {
@@ -54,19 +54,22 @@
         }
 
         &-big {
-            font-size: 2rem;
+            font-size: 2.2rem;
             text-transform: uppercase;
-            line-height: 2.5rem;
+            line-height: 3rem;
             word-spacing: 1.5px;
             font-weight: 600;
-
             /* TEXT SHADE */
             display: inline-block;
             background-color: transparent;
             color: transparent;
             -webkit-background-clip: text;
             background-clip: text;
-            background-image: linear-gradient(to right, rgba($color-secondary--dark-2, .8), rgba($color-secondary--dark-3, .9));
+            background-image: linear-gradient(to right, rgba($color-secondary--dark-2, .85), rgba($color-secondary--dark-3, .95));
+
+            span {
+                color: $color-primary--dark;
+            }
         }
     }
 }
