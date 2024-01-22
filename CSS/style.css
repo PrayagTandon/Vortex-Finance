@@ -77,6 +77,11 @@ body {
   background-clip: text;
   background-image: linear-gradient(to right, rgba(77, 153, 130, 0.8), rgba(52, 102, 87, 0.9));
 }
+.heading--tertiary {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
 
 .flex--center {
   display: flex;
@@ -276,10 +281,28 @@ body {
   padding: 2rem;
 }
 .section--features-container {
-  gap: 4rem;
+  gap: 6rem;
 }
 .section--features-container-img img {
   max-width: 100%;
+}
+.section--features-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.section--features-container-content_icon {
+  margin-bottom: 2.5rem;
+}
+.section--features-container-content_heading {
+  margin-bottom: 2.5rem;
+}
+.section--features-container-content_text p {
+  font: 0.8rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  color: #737373;
 }
 
 /*# sourceMappingURL=style.css.map */

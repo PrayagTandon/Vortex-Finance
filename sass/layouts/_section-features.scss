@@ -4,21 +4,45 @@
 .section--features {
     // padding: 4rem 0rem;
     // background-image: linear-gradient(to right, rgba($color-primary--dark , .95), rgba($color-primary , .85));
+    // background-color: red;
 
     &-box {
         padding: 2rem;
     }
 
     &-container {
-        gap: 4rem;
+        gap: 6rem;
 
         &-img {
+            // background: red
 
             img {
                 max-width: 100%;
             }
         }
 
-        // &-content {}
+        &-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            &_icon {
+                margin-bottom: $margin-bottom--md;
+            }
+
+            &_heading {
+                margin-bottom: $margin-bottom--md;
+            }
+
+            &_text {
+                p {
+                    font: .8rem;
+                    font-weight: 300;
+                    line-height: 1.8rem;
+                    color: $color-grey--3;
+                }
+            }
+        }
     }
 }
