@@ -3,7 +3,7 @@
 
 .container--services {
     padding: 2rem;
-    background-image: linear-gradient(to right, rgba($color-primary--dark , .85), rgba($color-primary , .85)), url(../../img/header_img-2.jpg);
+    background-image: linear-gradient(to right, rgba($color-primary--dark , .7), rgba($color-primary , .75)), url(../../img/header_img-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -13,5 +13,19 @@
 
     &-container {
         gap: 3rem;
+        background-color: orange;
+        border: 2px solid wheat;
+        padding: 2rem 3rem;
+    }
+}
+
+.heading--services {
+
+    &-small {
+        color: $color-white;
+    }
+
+    &-big {
+        background-image: linear-gradient(to right, rgba($color-secondary, .8), rgba($color-secondary--dark-1, .9));
     }
 }

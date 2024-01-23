@@ -44,13 +44,13 @@
         width: 85%;
         margin: 0 auto;
         margin-bottom: $margin-bottom--lg;
+        font-weight: 600;
 
         &-small {
             font-family: $font-secondary;
             text-transform: uppercase;
             letter-spacing: .4px;
             font-size: 1.1rem;
-            font-weight: 600;
             color: $color-primary;
         }
 
@@ -60,17 +60,13 @@
             color: $color-primary;
             line-height: 3rem;
             word-spacing: 1.5px;
-            font-weight: 600;
-
-            span {
-                /* TEXT SHADE */
-                display: inline-block;
-                background-color: transparent;
-                color: transparent;
-                -webkit-background-clip: text;
-                background-clip: text;
-                background-image: linear-gradient(to right, rgba($color-secondary--dark-2, .8), rgba($color-secondary--dark-3, .9));
-            }
+            /* TEXT SHADE */
+            display: inline-block;
+            background-color: transparent;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-image: linear-gradient(to right, rgba($color-secondary--dark-2, .8), rgba($color-secondary--dark-3, .9));
         }
     }
 
