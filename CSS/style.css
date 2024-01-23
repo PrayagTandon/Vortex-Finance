@@ -416,15 +416,24 @@ body {
 /* HOVER CONTAINER */
 .section--features__hover {
   position: absolute;
-  bottom: 10%;
+  bottom: 0%;
   left: 0;
   width: 100%;
-  height: 75%;
+  height: 60%;
   padding: 2rem 2.5rem;
   border-radius: 9px;
-  background: linear-gradient(to right bottom, rgba(129, 255, 217, 0.75), rgba(255, 255, 255, 0.75), rgba(129, 255, 217, 0.75));
+  background: linear-gradient(to right bottom, rgba(5, 23, 38, 0.92), rgba(29, 28, 63, 0.92));
   border-top: 4px solid #051726;
-  border-bottom: 4px solid #051726;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.section--features__hover-text {
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ababab;
 }
 
 /*!
