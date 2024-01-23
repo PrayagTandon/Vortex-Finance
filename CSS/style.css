@@ -381,8 +381,16 @@ body {
   border-radius: 9px;
   background: linear-gradient(to right bottom, rgba(129, 255, 217, 0.75), rgba(255, 255, 255, 0.75), rgba(129, 255, 217, 0.75));
 }
+.section--services-container-items .section--features__hover {
+  transform: translateY(50%);
+  display: none;
+}
 .section--services-container-items:hover {
   cursor: pointer;
+}
+.section--services-container-items:hover .section--features__hover {
+  transform: translateY(0%);
+  display: flex;
 }
 .section--services-container-button {
   display: flex;
