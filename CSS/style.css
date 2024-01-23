@@ -79,6 +79,14 @@ body {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
+.heading--fourth {
+  color: #051726;
+  font-family: "Merriweather", serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  font-size: 1.2rem;
+}
 
 .flex--center {
   display: flex;
@@ -324,7 +332,7 @@ body {
 
 .container--services {
   padding: 4rem 2rem;
-  background-image: linear-gradient(to right, rgba(5, 21, 34, 0.65), rgba(5, 23, 38, 0.65)), url(../../img/header_img-2.jpg);
+  background-image: linear-gradient(to right, rgba(5, 21, 34, 0.75), rgba(5, 23, 38, 0.75)), url(../../img/header_img-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -338,38 +346,39 @@ body {
 }
 
 .section--services-container {
-  gap: 3rem;
+  gap: 5rem 4rem;
   padding: 2rem 3rem;
 }
 .section--services-container-items {
   padding: 2rem 2.5rem;
   border-radius: 9px;
-  background: linear-gradient(to right bottom, rgba(129, 255, 217, 0.75), rgba(255, 255, 255, 0.6), rgba(129, 255, 217, 0.75));
+  background: linear-gradient(to right bottom, rgba(129, 255, 217, 0.75), rgba(255, 255, 255, 0.75), rgba(129, 255, 217, 0.75));
+}
+.section--services-container-items:hover {
+  cursor: pointer;
 }
 
 .grid__box {
   flex-direction: column;
   gap: 1.4rem;
 }
+.grid__box--icon {
+  margin-bottom: 1rem;
+}
 .grid__box--icon svg {
   width: 3rem;
   height: 3rem;
 }
 .grid__box--heading {
-  color: #051726;
-  font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
-  font-weight: 600;
-  letter-spacing: 0.4px;
-  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
-.grid__box--content {
+.grid__box--content p {
   font-size: 0.9rem;
   font-family: "Poppins", sans-serif;
   line-height: 1.6rem;
   text-align: center;
   margin-bottom: 1rem;
+  color: #737373;
 }
 
 /*!

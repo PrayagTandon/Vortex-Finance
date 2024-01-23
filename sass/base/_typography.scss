@@ -76,4 +76,13 @@
         font-family: $font-secondary;
 
     }
+
+    &--fourth {
+        color: $color-primary;
+        font-family: $font-primary;
+        text-transform: capitalize;
+        font-weight: 600;
+        letter-spacing: .4px;
+        font-size: 1.2rem;
+    }
 }
