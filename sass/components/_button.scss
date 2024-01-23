@@ -47,5 +47,24 @@
         color: $color-white;
         padding-bottom: .6rem;
         border-bottom: 1px solid $color-white;
+        transition: $transition--sm;
+
+        &:hover {
+            border-bottom: 1px solid $color-secondary--dark-1;
+            color: $color-secondary--dark-1;
+            transform: translateY(-.4rem);
+
+            span {
+                transform: translateX(.1rem);
+            }
+        }
+
+        &:active {
+            transform: translateY(-.2rem);
+
+            span {
+                transform: translateX(0rem);
+            }
+        }
     }
 }

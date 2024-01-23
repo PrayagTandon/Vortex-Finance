@@ -164,6 +164,21 @@ body {
   color: rgba(255, 255, 255, 0.92);
   padding-bottom: 0.6rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.92);
+  transition: all 0.2s ease-in;
+}
+.btn--link:hover {
+  border-bottom: 1px solid #74e6c3;
+  color: #74e6c3;
+  transform: translateY(-0.4rem);
+}
+.btn--link:hover span {
+  transform: translateX(0.1rem);
+}
+.btn--link:active {
+  transform: translateY(-0.2rem);
+}
+.btn--link:active span {
+  transform: translateX(0rem);
 }
 
 .header {
