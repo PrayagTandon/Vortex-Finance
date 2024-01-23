@@ -28,7 +28,7 @@
         margin-bottom: 3rem;
 
         &-items {
-            // background-color: rgba($color-white, .8);
+            position: relative;
             padding: 2rem 2.5rem;
             border-radius: 9px;
             background: linear-gradient(to right bottom, rgba($color-secondary , .75), rgba($color-white , .75), rgba($color-secondary , .75));
@@ -74,4 +74,19 @@
             color: $color-grey--3;
         }
     }
+}
+
+/* HOVER CONTAINER */
+
+.section--features__hover {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    padding: 2rem 2.5rem;
+    border-radius: 9px;
+    background: linear-gradient(to right bottom, rgba($color-secondary , .75), rgba($color-white , .75), rgba($color-secondary , .75));
+    border-top: 4px solid $color-primary;
+    border-bottom: 4px solid $color-primary;
 }
