@@ -16,6 +16,6 @@
 @forward "../sass/layouts/services";
 
 // FONT AWESOME
-@forward "../sass/scss/fontawesome.scss";
-@forward "../sass/scss/solid.scss";
-@forward "../sass/scss/brands.scss";
+@import "../sass/scss/fontawesome.scss";
+@import "../sass/scss/solid.scss";
+@import "../sass/scss/brands.scss";

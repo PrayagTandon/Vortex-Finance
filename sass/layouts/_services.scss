@@ -2,21 +2,11 @@
 @use "../base/" as *;
 
 .container--services {
-    padding: 2rem;
-    background-image: linear-gradient(to right, rgba($color-primary--dark , .7), rgba($color-primary , .75)), url(../../img/header_img-2.jpg);
+    padding: 4rem 2rem;
+    background-image: linear-gradient(to right, rgba($color-primary--dark , .65), rgba($color-primary , .65)), url(../../img/header_img-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-}
-
-.section--services {
-
-    &-container {
-        gap: 3rem;
-        background-color: orange;
-        border: 2px solid wheat;
-        padding: 2rem 3rem;
-    }
 }
 
 .heading--services {
@@ -27,5 +17,52 @@
 
     &-big {
         background-image: linear-gradient(to right, rgba($color-secondary, .8), rgba($color-secondary--dark-1, .9));
+    }
+}
+
+.section--services {
+
+    &-container {
+        gap: 3rem;
+        // background-color: orange;
+        // border: 2px solid wheat;
+        padding: 2rem 3rem;
+
+        &-items {
+            // background-color: rgba($color-white, .8);
+            padding: 2rem 2.5rem;
+            border-radius: 9px;
+            background: linear-gradient(to right bottom, rgba($color-secondary , .75), rgba($color-white , .6), rgba($color-secondary , .75));
+        }
+    }
+}
+
+.grid__box {
+    flex-direction: column;
+    gap: 1.4rem;
+
+    &--icon {
+        svg {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+
+    &--heading {
+        color: $color-primary;
+        font-family: $font-secondary;
+        text-transform: capitalize;
+        font-weight: 600;
+        letter-spacing: .4px;
+        font-size: 1.2rem;
+        margin-bottom: $margin-bottom--sm;
+    }
+
+    &--content {
+        font-size: .9rem;
+        font-family: $font-secondary;
+        line-height: 1.6rem;
+        text-align: center;
+        margin-bottom: $margin-bottom--sm;
     }
 }
