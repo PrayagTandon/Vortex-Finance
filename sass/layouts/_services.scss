@@ -2,5 +2,16 @@
 @use "../base/" as *;
 
 .container--services {
-    background-color: red;
+    padding: 2rem;
+    background-image: linear-gradient(to right, rgba($color-primary--dark , .85), rgba($color-primary , .85)), url(../../img/header_img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.section--services {
+
+    &-container {
+        gap: 3rem;
+    }
 }

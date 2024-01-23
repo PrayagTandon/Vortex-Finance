@@ -114,6 +114,10 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .btn {
   display: inline-block;
   border: none;
@@ -322,7 +326,15 @@ body {
 }
 
 .container--services {
-  background-color: red;
+  padding: 2rem;
+  background-image: linear-gradient(to right, rgba(5, 21, 34, 0.85), rgba(5, 23, 38, 0.85)), url(../../img/header_img-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.section--services-container {
+  gap: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
