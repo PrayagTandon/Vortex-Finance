@@ -25,6 +25,7 @@
     &-container {
         gap: 5rem 4rem;
         padding: 2rem 3rem;
+        margin-bottom: 3rem;
 
         &-items {
             // background-color: rgba($color-white, .8);
@@ -35,6 +36,12 @@
             &:hover {
                 cursor: pointer;
             }
+        }
+
+        &-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 }
