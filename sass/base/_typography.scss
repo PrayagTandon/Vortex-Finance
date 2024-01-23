@@ -55,8 +55,8 @@
         }
 
         &-big {
-            font-size: 2.2rem;
-            text-transform: uppercase;
+            font-size: 2rem;
+            text-transform: capitalize;
             color: $color-primary;
             line-height: 3rem;
             word-spacing: 1.5px;
