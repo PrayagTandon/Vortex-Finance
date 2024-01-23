@@ -43,7 +43,7 @@
         gap: 1.2rem;
         width: 85%;
         margin: 0 auto;
-        margin-bottom: $margin-bottom--md;
+        margin-bottom: $margin-bottom--lg;
 
         &-small {
             font-family: $font-secondary;
@@ -51,7 +51,7 @@
             letter-spacing: .4px;
             font-size: 1.1rem;
             font-weight: 600;
-            color: $color-secondary--dark-2;
+            color: $color-primary;
         }
 
         &-big {
