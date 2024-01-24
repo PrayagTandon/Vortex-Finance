@@ -134,6 +134,14 @@
                         &--2 {
                             background-image: linear-gradient(to right, rgba($color-tab--1, .8), rgba($color-tab--1-light, .8));
                         }
+
+                        &--3 {
+                            background-image: linear-gradient(to right, rgba($color-tab--2, .8), rgba($color-tab--2-light, .8));
+                        }
+
+                        &--4 {
+                            background-image: linear-gradient(to right, $color-white, $color-white--full);
+                        }
                     }
 
                     &__paragraph {
@@ -142,6 +150,7 @@
                         color: rgba($color-grey--4, .8);
                         font-family: $font-secondary;
                         width: 80%;
+                        opacity: .8;
                     }
                 }
             }
