@@ -443,6 +443,9 @@ body {
   color: #ababab;
 }
 
+.section--tab {
+  margin-top: 10rem;
+}
 .section--tab__container {
   flex-direction: column;
   gap: 3.5rem;

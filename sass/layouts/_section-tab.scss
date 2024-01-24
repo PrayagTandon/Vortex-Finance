@@ -2,6 +2,7 @@
 @use "../base/" as *;
 
 .section--tab {
+    margin-top: 10rem;
 
     &__container {
         flex-direction: column;
