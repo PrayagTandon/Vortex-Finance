@@ -94,3 +94,33 @@
         }
     }
 }
+
+.slider--btn {
+    display: inline-block;
+    padding: 1.2rem;
+    border-radius: 50%;
+    background-color: $color-primary;
+    color: $color-secondary;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border: 1px solid transparent;
+    transition: $transition--sm;
+    position: absolute;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-secondary;
+        color: $color-primary;
+        border: 1px solid $color-primary;
+    }
+}
+
+.btn--left {
+    top: 30%;
+    left: 6%;
+}
+
+.btn--right {
+    top: 30%;
+    right: 6%;
+}

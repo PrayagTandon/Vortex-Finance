@@ -648,6 +648,35 @@ body {
   color: #ababab;
 }
 
+.slider--btn {
+  display: inline-block;
+  padding: 1.2rem;
+  border-radius: 50%;
+  background-color: #051726;
+  color: #81ffd9;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in;
+  position: absolute;
+}
+.slider--btn:hover {
+  cursor: pointer;
+  background-color: #81ffd9;
+  color: #051726;
+  border: 1px solid #051726;
+}
+
+.btn--left {
+  top: 30%;
+  left: 6%;
+}
+
+.btn--right {
+  top: 30%;
+  right: 6%;
+}
+
 /*!
  * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
