@@ -467,12 +467,41 @@ body {
   font-family: "Merriweather", serif;
   font-weight: 600;
   font-size: 1rem;
+  transition: all 0.3s ease-in-out;
   transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.92);
 }
 .operations__tab--container-btn span {
   display: inline-block;
   margin-right: 0.8rem;
   font-family: "Poppins", sans-serif;
+}
+.operations__tab--container-btn:hover {
+  cursor: pointer;
+}
+.operations__tab--container .tab__btn--1 {
+  background: linear-gradient(to right bottom, rgba(94, 197, 118, 0.9), rgba(85, 177, 106, 0.9));
+}
+.operations__tab--container .tab__btn--1:hover {
+  background: linear-gradient(to right bottom, #5ec576, #55b16a);
+}
+.operations__tab--container .tab__btn--2 {
+  background: linear-gradient(to right bottom, rgba(255, 203, 3, 0.9), rgba(255, 187, 0, 0.9));
+}
+.operations__tab--container .tab__btn--2:hover {
+  background: linear-gradient(to right bottom, #ffcb03, #ffbb00);
+}
+.operations__tab--container .tab__btn--3 {
+  background: linear-gradient(to right bottom, rgba(255, 88, 95, 0.9), rgba(253, 66, 75, 0.9));
+}
+.operations__tab--container .tab__btn--3:hover {
+  background: linear-gradient(to right bottom, #ff585f, #fd424b);
+}
+.operations__tab--container .tab__btn--4 {
+  background: linear-gradient(to right bottom, rgba(5, 23, 38, 0.9), rgba(5, 21, 34, 0.9));
+}
+.operations__tab--container .tab__btn--4:hover {
+  background: linear-gradient(to right bottom, #051726, #051522);
 }
 
 /*!
