@@ -445,9 +445,16 @@ body {
 }
 
 .section--tab__container {
-  background-color: greenyellow;
-  padding: 2rem 4rem;
+  flex-direction: column;
+  padding: 2rem 2rem;
   border: 2px solid red;
+}
+
+.operations__tab {
+  background-color: #ffffff;
+  padding: 0rem 3rem;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 /*!
