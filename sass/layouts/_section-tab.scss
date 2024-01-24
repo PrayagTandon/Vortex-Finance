@@ -77,6 +77,10 @@
                     background: linear-gradient(to right bottom, rgba($color-primary , 1), rgba($color-primary--dark , 1));
                 }
             }
+
+            &--active {
+                transform: translateY(-65%);
+            }
         }
     }
 

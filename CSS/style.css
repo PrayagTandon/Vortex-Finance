@@ -503,6 +503,9 @@ body {
 .operations__tab--container .tab__btn--4:hover {
   background: linear-gradient(to right bottom, #051726, #051522);
 }
+.operations__tab--container .tab__btn--active {
+  transform: translateY(-65%);
+}
 
 /*!
  * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
