@@ -446,6 +446,8 @@ body {
 
 .section--tab__container {
   background-color: greenyellow;
+  padding: 2rem 4rem;
+  border: 2px solid red;
 }
 
 /*!
