@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -571,10 +572,46 @@ body {
   margin-top: 4rem;
 }
 
-.container--testimonials {
-  background-color: gold;
+.slider {
+  border: 1px solid #ffffff;
+  width: 80%;
+  margin: 0 auto;
 }
 
+.testimonial {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px 1px #051726;
+  padding: 3rem 4rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  position: relative;
+  border-radius: 20px;
+}
+.testimonial::before {
+  content: "“";
+  display: inline-block;
+  font-size: 12rem;
+  font-family: "Poppins", sans-serif;
+  color: #74e6c3;
+  position: absolute;
+  top: 0;
+  left: -20%;
+}
+.testimonial--heading {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Merriweather", serif;
+  color: #051726;
+  word-spacing: 2px;
+  letter-spacing: 0.4px;
+}
+.testimonial--text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #ababab;
+}
 /*!
  * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
