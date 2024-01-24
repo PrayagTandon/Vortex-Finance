@@ -1,2 +1,10 @@
 @use "../abstracts/" as *;
 @use "../base/" as *;
+
+.section--testimonials {
+    margin-top: 4rem;
+}
+
+.container--testimonials {
+    background-color: gold;
+}
