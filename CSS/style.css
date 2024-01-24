@@ -587,6 +587,8 @@ body {
   gap: 2rem;
   position: relative;
   border-radius: 20px;
+  width: 80%;
+  margin: 0 auto;
 }
 .testimonial::before {
   content: "“";
@@ -602,14 +604,14 @@ body {
   font-size: 1.4rem;
   font-weight: 600;
   font-family: "Merriweather", serif;
-  color: #051726;
-  word-spacing: 2px;
+  color: #1e2e3c;
   letter-spacing: 0.4px;
+  line-height: 2.5rem;
 }
 .testimonial--text {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 2.2rem;
+  line-height: 2.5rem;
   color: #ababab;
 }
 /*!
