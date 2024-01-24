@@ -455,7 +455,7 @@ body {
 }
 .operations__tab--container {
   gap: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 .operations__tab--container-btn {
   display: flex;
@@ -505,6 +505,23 @@ body {
 }
 .operations__tab--container .tab__btn--active {
   transform: translateY(-65%);
+}
+.operations__tab--content {
+  display: none;
+}
+.operations__tab--content-active {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 1.2rem;
+  padding: 2rem 4rem;
+  width: 90%;
+  margin: 0 auto;
+  background: linear-gradient(to right, rgba(5, 21, 34, 0.8), rgba(5, 23, 38, 0.8));
+}
+
+.content--icon svg {
+  width: 3rem;
+  height: 3rem;
 }
 
 /*!
