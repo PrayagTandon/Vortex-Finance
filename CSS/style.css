@@ -583,6 +583,7 @@ body {
   border: 1px solid #ffffff;
   width: 80%;
   margin: 0 auto;
+  height: auto;
   position: absolute;
   top: 0;
   justify-self: center;
