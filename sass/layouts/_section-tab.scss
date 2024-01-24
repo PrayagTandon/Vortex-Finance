@@ -14,6 +14,7 @@
 .operations__tab {
     background-color: $color-white--full;
     padding: 0rem 4rem;
+    margin-bottom: $margin-bottom--lg;
 
     &--container {
         gap: 4rem;
@@ -94,19 +95,56 @@
             padding: 2rem 4rem;
             width: 90%;
             margin: 0 auto;
-            background: linear-gradient(to right, rgba($color-primary--dark , .8), rgba($color-primary , .8));
+            background: linear-gradient(to right, rgba($color-primary , .8), rgba($color-primary--light , .8));
+            margin-bottom: $margin-bottom--lg;
+            border-radius: 1rem;
+
+            .content {
+
+                &--icon {
+                    svg {
+                        width: 3rem;
+                        height: 3rem;
+                    }
+                }
+
+                &--text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 2.5rem;
+
+                    &__heading {
+                        font-size: 1.5rem;
+                        text-transform: capitalize;
+                        line-height: 3rem;
+                        word-spacing: 1.5px;
+                        /* TEXT SHADE */
+                        display: inline-block;
+                        background-color: transparent;
+                        color: transparent;
+                        -webkit-background-clip: text;
+                        background-clip: text;
+
+                        &--1 {
+                            background-image: linear-gradient(to right, rgba($color-tab--3, .8), rgba($color-tab--3-light, .8));
+                        }
+
+                        &--2 {
+                            background-image: linear-gradient(to right, rgba($color-tab--1, .8), rgba($color-tab--1-light, .8));
+                        }
+                    }
+
+                    &__paragraph {
+                        font-size: 1rem;
+                        line-height: 2.4rem;
+                        color: rgba($color-grey--4, .8);
+                        font-family: $font-secondary;
+                        width: 80%;
+                    }
+                }
+            }
         }
     }
-}
-
-.content {
-
-    &--icon {
-        svg {
-            width: 3rem;
-            height: 3rem;
-        }
-    }
-
-    // &--text {}
 }

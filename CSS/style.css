@@ -63,7 +63,6 @@ body {
 .heading--secondary-big {
   font-size: 2rem;
   text-transform: capitalize;
-  color: #051726;
   line-height: 3rem;
   word-spacing: 1.5px;
   /* TEXT SHADE */
@@ -452,6 +451,7 @@ body {
 .operations__tab {
   background-color: #ffffff;
   padding: 0rem 4rem;
+  margin-bottom: 4rem;
 }
 .operations__tab--container {
   gap: 4rem;
@@ -516,12 +516,45 @@ body {
   padding: 2rem 4rem;
   width: 90%;
   margin: 0 auto;
-  background: linear-gradient(to right, rgba(5, 21, 34, 0.8), rgba(5, 23, 38, 0.8));
+  background: linear-gradient(to right, rgba(5, 23, 38, 0.8), rgba(30, 46, 60, 0.8));
+  margin-bottom: 4rem;
+  border-radius: 1rem;
 }
-
-.content--icon svg {
+.operations__tab--content-active .content--icon svg {
   width: 3rem;
   height: 3rem;
+}
+.operations__tab--content-active .content--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+.operations__tab--content-active .content--text__heading {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  line-height: 3rem;
+  word-spacing: 1.5px;
+  /* TEXT SHADE */
+  display: inline-block;
+  background-color: transparent;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.operations__tab--content-active .content--text__heading--1 {
+  background-image: linear-gradient(to right, rgba(94, 197, 118, 0.8), rgba(110, 203, 132, 0.8));
+}
+.operations__tab--content-active .content--text__heading--2 {
+  background-image: linear-gradient(to right, rgba(255, 203, 3, 0.8), rgba(255, 208, 28, 0.8));
+}
+.operations__tab--content-active .content--text__paragraph {
+  font-size: 1rem;
+  line-height: 2.4rem;
+  color: rgba(237, 237, 237, 0.8);
+  font-family: "Poppins", sans-serif;
+  width: 80%;
 }
 
 /*!
