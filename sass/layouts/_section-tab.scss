@@ -5,14 +5,41 @@
 
     &__container {
         flex-direction: column;
-        padding: 2rem 2rem;
-        border: 2px solid red;
+        // padding: 2rem 2rem;
+        // border: 2px solid red;
+        gap: 3.5rem;
     }
 }
 
 .operations__tab {
     background-color: $color-white--full;
-    padding: 0rem 3rem;
-    flex-direction: column;
-    gap: 3rem;
+    padding: 0rem 4rem;
+
+    &--container {
+        gap: 4rem;
+        margin-bottom: $margin-bottom--lg;
+
+        &-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1.2rem 2rem;
+            border: none;
+            border-radius: 20px;
+
+            font-family: $font-primary;
+            font-weight: 600;
+            font-size: 1rem;
+
+            transform: translateY(-50%);
+
+            span {
+                display: inline-block;
+                margin-right: .8rem;
+                font-family: $font-secondary;
+            }
+        }
+    }
+
+    // &--content {}
 }

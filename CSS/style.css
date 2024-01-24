@@ -446,15 +446,33 @@ body {
 
 .section--tab__container {
   flex-direction: column;
-  padding: 2rem 2rem;
-  border: 2px solid red;
+  gap: 3.5rem;
 }
 
 .operations__tab {
   background-color: #ffffff;
-  padding: 0rem 3rem;
-  flex-direction: column;
-  gap: 3rem;
+  padding: 0rem 4rem;
+}
+.operations__tab--container {
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+.operations__tab--container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  border: none;
+  border-radius: 20px;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-size: 1rem;
+  transform: translateY(-50%);
+}
+.operations__tab--container-btn span {
+  display: inline-block;
+  margin-right: 0.8rem;
+  font-family: "Poppins", sans-serif;
 }
 
 /*!
