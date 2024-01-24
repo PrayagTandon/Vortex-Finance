@@ -13,7 +13,7 @@
 
 .testimonial {
     background-color: $color-white--full;
-    box-shadow: 0px 2px 10px 1px $color-primary;
+    box-shadow: 0px 5px 8px 3px rgba($color-primary, .3);
     padding: 3rem 4rem;
     flex-direction: column;
     align-items: flex-start;
@@ -26,12 +26,12 @@
     &::before {
         content: "\201C";
         display: inline-block;
-        font-size: 12rem;
+        font-size: 15rem;
         font-family: $font-secondary;
         color: $color-secondary--dark-1;
         position: absolute;
-        top: 0;
-        left: -20%;
+        top: -5%;
+        left: -15%;
     }
 
     &--heading {
@@ -50,5 +50,35 @@
         color: $color-grey--2;
     }
 
-    &--address {}
+    &--address {
+        display: grid;
+        grid-template-columns: 5rem 1fr;
+        align-items: center;
+        gap: .6rem;
+
+        &-img {
+            img {
+                width: 4rem;
+                height: 4rem;
+                border-radius: 50%;
+                outline: $color-primary solid 1px;
+            }
+        }
+
+        &-person {
+
+            &-name {
+                font-size: 1.1rem;
+                font-weight: 600;
+                margin-bottom: .8rem;
+                color: $color-primary--accent;
+            }
+
+            &-place {
+                font-size: .9rem;
+                font-weight: 400;
+                color: $color-grey--2;
+            }
+        }
+    }
 }

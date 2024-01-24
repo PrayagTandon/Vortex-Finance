@@ -580,7 +580,7 @@ body {
 
 .testimonial {
   background-color: #ffffff;
-  box-shadow: 0px 2px 10px 1px #051726;
+  box-shadow: 0px 5px 8px 3px rgba(5, 23, 38, 0.3);
   padding: 3rem 4rem;
   flex-direction: column;
   align-items: flex-start;
@@ -593,12 +593,12 @@ body {
 .testimonial::before {
   content: "“";
   display: inline-block;
-  font-size: 12rem;
+  font-size: 15rem;
   font-family: "Poppins", sans-serif;
   color: #74e6c3;
   position: absolute;
-  top: 0;
-  left: -20%;
+  top: -5%;
+  left: -15%;
 }
 .testimonial--heading {
   font-size: 1.4rem;
@@ -614,6 +614,30 @@ body {
   line-height: 2.5rem;
   color: #ababab;
 }
+.testimonial--address {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  align-items: center;
+  gap: 0.6rem;
+}
+.testimonial--address-img img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  outline: #051726 solid 1px;
+}
+.testimonial--address-person-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #1d1c3f;
+}
+.testimonial--address-person-place {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #ababab;
+}
+
 /*!
  * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
