@@ -831,64 +831,60 @@
     </main>
 
     <!-- MODAL WINDOW -->
-    <section class="section--modal">
-      <div class="modal--container flex--center">
-        <!-- HEADING -->
-        <h2 class="modal--heading">Open your account today!</h2>
+    <div class="modal--container hidden">
+      <!-- HEADING -->
+      <h2 class="modal--heading">
+        Open your account in <br />
+        just <span>5 minutes</span>
+      </h2>
 
-        <!-- FORM -->
-        <form action="#" method="get" class="modal--form">
-          <!-- NAME -->
-          <input
-            type="text"
-            name="input-text"
-            id="input-name"
-            class="modal--form-input"
-          />
-          <label for="input-name" class="modal--form-label">
-            Enter your Full name
-          </label>
-          <!-- EMAIL -->
-          <input
-            type="email"
-            name="input-text"
-            id="input-name"
-            class="modal--form-input"
-          />
-          <label for="input-name" class="modal--form-label">
-            Enter your Email address
-          </label>
+      <!-- FORM -->
+      <form action="#" method="get" class="modal--form">
+        <!-- FIRST NAME -->
+        <label for="input--first-name" class="modal--form-label">
+          First name
+        </label>
+        <input
+          type="text"
+          name="input-text"
+          id="input--first-name"
+          class="modal--form-input"
+          placeholder="First Name"
+        />
+        <!-- LAST NAME -->
+        <label for="input--last-name" class="modal--form-label">
+          Last Name
+        </label>
+        <input
+          type="text"
+          name="input-text"
+          id="input--last-name"
+          class="modal--form-input"
+          placeholder="Last Name"
+        />
 
-          <!-- Phone number -->
-          <input
-            type="number"
-            name="input-text"
-            id="input-name"
-            class="modal--form-input"
-          />
-          <label for="input-name" class="modal--form-label">
-            Enter your Contact number
-          </label>
+        <!-- EMAIL -->
+        <label for="input--email" class="modal--form-label">
+          Email Address
+        </label>
+        <input
+          type="email"
+          name="input-text"
+          id="input--email"
+          class="modal--form-input"
+          placeholder="Email"
+        />
 
-          <!-- Age -->
-          <input
-            type="number"
-            name="input-text"
-            id="input-name"
-            class="modal--form-input"
-          />
-          <label for="input-name" class="modal--form-label">
-            Enter your Age
-          </label>
+        <button type="submit" class="btn--fill modal--btn">
+          Next step &rarr;
+        </button>
+      </form>
 
-          <button type="submit" class="modal--btn">Submit</button>
-          <p class="modal--footer-text">We usually contact in 24 hours.</p>
-        </form>
+      <!-- Btn Close -->
+      <button type="reset" class="modal--reset"><span>X</span></button>
+    </div>
 
-        <!-- BTN Close -->
-        <button type="reset" class="modal--reset"><span>X</span></button>
-      </div>
-    </section>
+    <div class="overlay hiiden">&nbsp;</div>
 
     <script src="js/vortex-website.js"></script>
   </body>
