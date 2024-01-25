@@ -9,8 +9,21 @@
     top: 0;
     left: 0;
     z-index: 100;
-    padding: 8rem;
-    display: flex;
-    justify-content: center;
+    // padding: 8rem;
+}
 
+.modal {
+
+    &--container {
+        position: fixed;
+        top: 50%;
+        left: 22%;
+        width: 55%;
+        padding: 2.5rem 4rem;
+        background-color: $color-white--full;
+        border-radius: 15px;
+
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 }
