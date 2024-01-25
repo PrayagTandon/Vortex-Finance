@@ -125,6 +125,11 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
 .btn {
   display: inline-block;
   border: none;
@@ -343,9 +348,15 @@ body {
   border: none;
   font-size: 2rem;
   font-weight: 500;
+  color: #808080;
   position: absolute;
   top: 3%;
   right: 6%;
+  transition: all 0.2s ease-in;
+}
+.modal--reset:hover {
+  cursor: pointer;
+  color: #ababab;
 }
 
 .footer {
@@ -474,7 +485,7 @@ body {
 }
 
 .section--feature {
-  padding: 2rem 0rem;
+  padding: 3rem 0rem;
 }
 .section--feature-container {
   flex-direction: column;

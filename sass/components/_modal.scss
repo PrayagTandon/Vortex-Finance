@@ -115,9 +115,15 @@
         border: none;
         font-size: 2rem;
         font-weight: 500;
-
+        color: $color-grey--1;
         position: absolute;
         top: 3%;
         right: 6%;
+        transition: $transition--sm;
+
+        &:hover {
+            cursor: pointer;
+            color: $color-grey--2;
+        }
     }
 }

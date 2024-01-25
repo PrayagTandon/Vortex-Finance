@@ -8,6 +8,8 @@ const navbar = document.querySelector('.header__nav');
 const linkHeader = document.querySelector('.header__nav--link-item');
 const linkFooter = document.querySelector('.footer__nav--link-item');
 const logo = document.querySelector('.header__nav--logo-link');
+const modal = document.querySelector('.modal--container');
+const overlay = document.querySelector('.overlay');
 
 // SECTION
 const sectionFeatures = document.querySelector('section--features');
@@ -20,6 +22,7 @@ const footer = document.querySelector('.footer');
 const btnFill = document.querySelector('.btn--fill');
 const btnOutline = document.querySelector('.btn--outline');
 const btnLink = document.querySelector('.btn--link');
+const btnReset = document.querySelector('.modal--reset');
 
 // TAB
 const tab = document.querySelector('.operations__tab--container-btn');
