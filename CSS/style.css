@@ -185,6 +185,7 @@ body {
 .header__nav,
 .footer__nav {
   padding: 2rem 4rem;
+  min-height: 15vh;
 }
 .header__nav--logo-link,
 .footer__nav--logo-link {
