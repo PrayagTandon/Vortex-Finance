@@ -9,6 +9,7 @@
     top: 0;
     left: 0;
     z-index: 100;
+    transition: $transition--lg;
 }
 
 .modal {
@@ -26,6 +27,7 @@
         gap: 1.5rem;
 
         background: linear-gradient(to right bottom, rgba($color-secondary--dark-2 , .95), rgba($color-secondary--dark-1 , .95), rgba($color-secondary--dark-3 , .95));
+        transition: $transition--lg;
     }
 
     &--heading {

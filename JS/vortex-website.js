@@ -35,13 +35,20 @@ const btnRight = document.querySelector('btn--right');
 
 // FUNCTIONS
 
-function modalClassToggle() {
+function toggleModal() {
     modal.classList.toggle('hidden');
     overlay.classList.toggle('hidden');
 };
 
-// EVENT LISTENERS
+/* EVENT LISTENERS */
 
-btnFill.forEach((btn) => btn.addEventListener('click', modalClassToggle));
+// MODAL EVENT
+btnFill.forEach((btn) => btn.addEventListener('click', toggleModal));
 
-btnReset.addEventListener('click', modalClassToggle);
+btnReset.addEventListener('click', toggleModal);
+
+document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+        toggleModal()
+    }
+});
