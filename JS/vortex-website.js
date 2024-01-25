@@ -19,9 +19,9 @@ const sectionTestimonials = document.querySelector('.section--testimonials');
 const footer = document.querySelector('.footer');
 
 // BUTTONS
-const btnFill = document.querySelector('.btn--fill');
-const btnOutline = document.querySelector('.btn--outline');
-const btnLink = document.querySelector('.btn--link');
+const btnFill = document.querySelectorAll('.btn--fill');
+const btnOutline = document.querySelectorAll('.btn--outline');
+const btnLink = document.querySelectorAll('.btn--link');
 const btnReset = document.querySelector('.modal--reset');
 
 // TAB
@@ -32,3 +32,16 @@ const tabContent = document.querySelector('.operations__tab--content');
 const arrowBtn = document.querySelector('slider--btn');
 const btnLeft = document.querySelector('btn--left');
 const btnRight = document.querySelector('btn--right');
+
+// FUNCTIONS
+
+function modalClassToggle() {
+    modal.classList.toggle('hidden');
+    overlay.classList.toggle('hidden');
+};
+
+// EVENT LISTENERS
+
+btnFill.forEach((btn) => btn.addEventListener('click', modalClassToggle));
+
+btnReset.addEventListener('click', modalClassToggle);
