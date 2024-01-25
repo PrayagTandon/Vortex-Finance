@@ -8,68 +8,6 @@
     background-size: cover;
     background-position: center center;
 
-    &__nav {
-        padding: 2rem 4rem;
-        // background-color: darkseagreen;
-
-        &--logo-link {
-            text-decoration: none;
-            gap: 1rem;
-
-            img {
-                width: 4rem;
-                height: 4rem;
-            }
-
-            p {
-                font-family: $font-primary;
-                font-size: 1.5rem;
-                font-weight: 600;
-                color: $color-white;
-                transition: $transition--sm;
-
-                span {
-                    color: $color-secondary--dark-2;
-                }
-
-                &:hover {
-                    color: $color-secondary--dark-2;
-
-                    span {
-                        color: $color-white;
-                    }
-                }
-            }
-        }
-
-        &--links {
-            gap: 1.4rem;
-            list-style: none;
-        }
-
-        &--link {
-            &-item {
-                display: inline-block;
-                text-decoration: none;
-                margin: 0.6rem 0.8rem 0rem;
-                padding-bottom: 0.4rem;
-            }
-
-            &-item:link,
-            &-item:visited {
-                color: $color-white;
-                border-bottom: $border-bottom;
-            }
-
-            &-item:hover,
-            &-item:active {
-                color: $color-secondary--dark-1;
-                transition: $transition--sm;
-                border-bottom: 1px solid $color-secondary--dark-1;
-            }
-        }
-    }
-
     &__content {
         flex-direction: column;
         min-height: 80vh;
