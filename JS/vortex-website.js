@@ -19,3 +19,13 @@ const footer = document.querySelector('.footer');
 // BUTTONS
 const btnFill = document.querySelector('.btn--fill');
 const btnOutline = document.querySelector('.btn--outline');
+const btnLink = document.querySelector('.btn--link');
+
+// TAB
+const tab = document.querySelector('.operations__tab--container-btn');
+const tabContent = document.querySelector('.operations__tab--content');
+
+// ARROW
+const arrowBtn = document.querySelector('slider--btn');
+const btnLeft = document.querySelector('btn--left');
+const btnRight = document.querySelector('btn--right');
