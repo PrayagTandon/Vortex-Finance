@@ -55,7 +55,7 @@ body {
   font-weight: 600;
 }
 .heading--secondary-small {
-  font-family: "Poppins", sans-serif;
+  font-family: "Merriweather", serif;
   text-transform: uppercase;
   letter-spacing: 0.4px;
   font-size: 1.1rem;
@@ -63,6 +63,7 @@ body {
 }
 .heading--secondary-big {
   font-size: 2rem;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   line-height: 3rem;
   word-spacing: 1.5px;
