@@ -49,3 +49,13 @@ document.addEventListener('keydown', function (e) {
         toggleModal()
     }
 });
+
+// SECTION SMOOTH SCROLLING
+
+linkHeader.addEventListener('click', function (e) {
+    e.preventDefault();
+    if (e.target.classList.contains('header__nav--link-item')) {
+        const id = e.target.getAttribute('href');
+        document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+    }
+});
