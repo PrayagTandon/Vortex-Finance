@@ -12,10 +12,7 @@ const modal = document.querySelector('.modal--container');
 const overlay = document.querySelector('.overlay');
 
 // SECTION
-const sectionFeatures = document.querySelector('section--features');
-const sectionServices = document.querySelector('.section--services');
-const sectionTab = document.querySelector('.section--tab');
-const sectionTestimonials = document.querySelector('.section--testimonials');
+const section = document.querySelector('.section');
 const footer = document.querySelector('.footer');
 
 // BUTTONS
