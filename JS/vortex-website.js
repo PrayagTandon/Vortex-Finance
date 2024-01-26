@@ -5,14 +5,14 @@
 // ELEMENTS
 const header = document.querySelector('.header');
 const navbar = document.querySelector('.header__nav');
-const linkHeader = document.querySelector('.header__nav--link-item');
-const linkFooter = document.querySelector('.footer__nav--link-item');
+const linkHeader = document.querySelector('.header__nav--links');
+const linkFooter = document.querySelector('.footer__nav--links');
 const logo = document.querySelector('.header__nav--logo-link');
 const modal = document.querySelector('.modal--container');
 const overlay = document.querySelector('.overlay');
 
 // SECTION
-const section = document.querySelector('.section');
+const section = document.querySelectorAll('.section');
 const footer = document.querySelector('.footer');
 
 // BUTTONS
